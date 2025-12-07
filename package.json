@@ -1,11 +1,11 @@
 {
-  "name": "server",
+  "name": "chemsaga-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "CHEMSAGA Multiplayer Node.js Servers",
+  "main": "invitation-server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start-invite": "node invitation-server.js",
+    "start-game": "node game-server.js"
   },
   "keywords": [],
   "author": "",
